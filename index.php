@@ -101,7 +101,7 @@ return true;
 							</div>
 						</div>
 						<div class="text-center text-light" style="color:black;">
-							<a href="forgot-password.php" style="color:black;">Olvidaste tu Contraseña?</a>
+							<a href="forgot-password.php" style="color:black;">Olvidaste tu Contraseña.............?</a>
 						</div>
 						<div class="text-center text-light">
 							<p>Iniciar sesi&oacute;n con Facebook:</p>
