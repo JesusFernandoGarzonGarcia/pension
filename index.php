@@ -103,6 +103,10 @@ return true;
 						<div class="text-center text-light" style="color:black;">
 							<a href="forgot-password.php" style="color:black;">Olvidaste tu Contraseña?</a>
 						</div>
+						<div class="text-center text-light">
+							<p>Iniciar sesi&oacute;n con Facebook:</p>
+							<fb:login-button perms="email,user_birthday"></fb:login-button>
+						</div>
 					</div>
 				</div>
 						</div>
@@ -113,6 +117,7 @@ return true;
 			</div>
 		</div>
 	</div>
+	<script src="//https://codeorigin.jquery.com/jquery-1.10.2.min.js"></script>
 	<script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap-select.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>

@@ -69,6 +69,10 @@ $stmt=$mysqli->prepare("SELECT username,email,password,id FROM admin WHERE (user
 
 									<input type="submit" name="login" class="btn btn-primary btn-block" value="Ingresar" >
 								</form>
+								<div class="text-center text-light">
+							<p>Iniciar sesi&oacute;n con Facebook:</p>
+							<fb:login-button perms="email,user_birthday"></fb:login-button>
+						</div>
 							</div>
 						</div>
 					</div>
@@ -76,6 +80,7 @@ $stmt=$mysqli->prepare("SELECT username,email,password,id FROM admin WHERE (user
 			</div>
 		</div>
 	</div>
+	<script src="//https://codeorigin.jquery.com/jquery-1.10.2.min.js"></script>
 	<script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap-select.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
