@@ -103,7 +103,7 @@ return true;
 						<div class="text-center text-light" style="color:black;">
 							<a href="forgot-password.php" style="color:black;">Olvidaste tu Contraseña.............?</a>
 						</div>
-						<div class="text-center text-light">
+						<div class="text-center text-light"  style="color:black;">
 							<p>Iniciar sesi&oacute;n con Facebook:</p>
 							<fb:login-button perms="email,user_birthday"></fb:login-button>
 						</div>
