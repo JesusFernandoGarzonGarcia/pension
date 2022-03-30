@@ -36,7 +36,7 @@ $query="insert into  registration(roomno,seater,feespm,foodstatus,stayfrom,durat
 $stmt = $mysqli->prepare($query);
 $rc=$stmt->bind_param('iiiisisissssisississsisssi',$roomno,$seater,$feespm,$foodstatus,$stayfrom,$duration,$course,$regno,$fname,$mname,$lname,$gender,$contactno,$emailid,$emcntno,$gurname,$gurrelation,$gurcntno,$caddress,$ccity,$cstate,$cpincode,$paddress,$pcity,$pstate,$ppincode);
 $stmt->execute();
-echo"<script>alert('Registro Satisfactorio de Estudiante');</script>";
+echo"<script>alert('Reserva realizada con exito por parte del usuario');</script>";
 }
 ?>
 
