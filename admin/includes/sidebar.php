@@ -19,7 +19,5 @@
 				<li><a href="registration.php"><i class="fa fa-user"></i>Registro de Estudiantes</a></li>
 				<li><a href="manage-students.php"><i class="fa fa-users"></i>Administrar Estudiantes</a></li>
 				<li><a href="access-log.php"><i class="fa fa-file"></i>Registro de Acceso de Usuarios</a></li>
-				<li><a href="#"><i class="fa fa-file"></i>Rockets</a></li>
-
-			
+				<li><a href="#"><i class="fa fa-file"></i>Rockets conn</a></li>
 		</nav>
