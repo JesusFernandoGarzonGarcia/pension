@@ -7,7 +7,7 @@ $DB_name = "bhxcvvnq9j6lo7aynk87";
 
 try
 {
- $DB_con = new PDO("mysql:host={$DB_host};dbname={$DB_name}",$DB_user,$DB_pass);
+ $DB_con = new PDO($DB_host,$DB_name,$DB_user,$DB_pass);
  $DB_con->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 }
 catch(PDOException $e)
