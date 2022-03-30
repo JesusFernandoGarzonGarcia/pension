@@ -89,7 +89,6 @@ popUpWin = open(URLStr,'popUpWin', 'toolbar=no,location=no,directories=no,status
 									<tbody>
 <?php	
 $aid=$_SESSION['id'];
-console.log($aid);
 $ret="select * from registration";
 $stmt= $mysqli->prepare($ret) ;
 //$stmt->bind_param('i',$aid);
