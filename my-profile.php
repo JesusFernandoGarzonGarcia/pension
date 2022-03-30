@@ -17,7 +17,7 @@ $contactno=$_POST['contact'];
 $udate = date('d-m-Y h:i:s', time());
 $query="update  userRegistration set regNo=?,firstName=?,middleName=?,lastName=?,gender=?,contactNo=?,updationDate=? where id=?";
 $stmt = $mysqli->prepare($query);
-$rc=$stmt->bind_param('sssd',$regno,$fname,$mname,$lname,$gender,$contactno,$udate,$aid);
+$rc=$stmt->bind_param($regno,$fname,$mname,$lname,$gender,$contactno,$udate,$aid);
 $stmt->execute();
 echo"<script>alert('Profile updated Succssfully');</script>";
 }
