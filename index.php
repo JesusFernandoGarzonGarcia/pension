@@ -102,12 +102,9 @@ return true;
 							</div>
 						</div>
 						<div class="text-center text-light" style="color:black;">
-							<a href="forgot-password.php" style="color:black;">Olvidaste tu Contraseña....hhhhh.....?</a>
+							<a href="forgot-password.php" style="color:black;">Olvidaste tu Contraseña?</a>
 						</div>
-						<div id="fb-root">
-						<div class="text-center text-black" style="color:black;">paqui va el puto boton
-						<div class="fb-login-button" data-width="250" data-size="large" data-button-type="continue_with" data-layout="rounded" data-auto-logout-link="true" data-use-continue-as="false"></div>
-					</div>
+						
 					</div>
 						</div>
 				</div>
@@ -119,46 +116,6 @@ return true;
 			</div>
 		</div>
 	</div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v13.0" nonce="lukIKlhF"></script>						
-<script>
-$(function() {
-  $.ajax({
-    url: '//connect.facebook.net/es_ES/all.js',
-    dataType: 'script',
-    cache: true,
-    success: function() {
-      alert('Facebook listo');
-    }
-  });
-});
-</script>
-
-<script>
-var finished_rendering = function() {
-  console.log("finished rendering plugins");
-  var spinner = document.getElementById("spinner");
-  spinner.removeAttribute("style");
-  spinner.removeChild(spinner.childNodes[0]);
-}
-FB.Event.subscribe('xfbml.render', finished_rendering);
-</script>
-<div id="spinner"
-    style="
-        background: #4267b2;
-        border-radius: 5px;
-        color: white;
-        height: 40px;
-        text-align: center;
-        width: 250px;">
-    Loading
-    <div
-    class="fb-login-button"
-    data-max-rows="1"
-    data-size="large"
-    data-button-type="continue_with"
-    data-use-continue-as="true"
-    ></div>
-</div>
 
 	<script src="//https://codeorigin.jquery.com/jquery-1.10.2.min.js"></script>
 	<script src="js/jquery.min.js"></script>
